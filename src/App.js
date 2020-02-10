@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import HomePage from './HomePage.js';
+import NavBar from './components/NavBar.js'
 
 function App() {
   return (
@@ -10,12 +11,7 @@ function App() {
     <Router>
       <div>
 
-      <header>
-        <ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-          <li className="navButton"><Link to="">About</Link></li>
-        </ul>
-      </header>
+        <NavBar />
 
       <Route name="home" exact path="/" component={HomePage} />
 
