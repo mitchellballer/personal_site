@@ -4,6 +4,7 @@ import './App.css';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import HomePage from './HomePage.js';
 import NavBar from './components/NavBar.js'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
 
       <Route name="home" exact path="/" component={HomePage} />
 
+      <Footer />
+      
       </div>
     
     </Router>
