@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+    <span class="manu-spacer"></span>
+    <mat-toolbar-row>
+        <a mat-button [routerLink]="'/home'">home</a>
+        <a mat-button [routerLink]="'/about'">About</a>
+        <a mat-button [routerLink]="'/projects'">Projects</a>
+        <a mat-button [routerLink]="'/resume'">Resume</a>
+        <a mat-button [routerLink]="'/contact'">Contact</a>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="mat-app-background basic-container">
+    <router-outlet></router-outlet>
+</div>
