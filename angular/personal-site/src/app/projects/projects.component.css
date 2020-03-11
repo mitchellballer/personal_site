@@ -1,0 +1,9 @@
+.project {
+    margin-top: 15px;
+    max-width: 600px;
+    display: grid;
+}
+
+.projects-container {
+    background-color: brown;
+}
