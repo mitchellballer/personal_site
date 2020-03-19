@@ -31,3 +31,8 @@ li a:hover{
     background-color: lightgray;
     color: black;
 }
+
+@media screen and (max-width: 600px) {
+    ul, li {float: none;}
+    li a {padding: 3px;}
+}
