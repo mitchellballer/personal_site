@@ -1,0 +1,5 @@
+.basic-container {
+    background-color: pink;
+    display: flex;
+    align-content: center;
+}
