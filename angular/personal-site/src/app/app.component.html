@@ -1,21 +1,8 @@
 
-<!--
-<mat-toolbar color="primary">
-    <span class="manu-spacer"></span>
-    <mat-toolbar-row>
-        <a mat-button [routerLink]="'/home'">home</a>
-        <a mat-button [routerLink]="'/about'">About</a>
-        <a mat-button [routerLink]="'/projects'">Projects</a>
-        <a mat-button [routerLink]="'/resume'">Resume</a>
-        <a mat-button [routerLink]="'/contact'">Contact</a>
-    </mat-toolbar-row>
-</mat-toolbar>
-
--->
 <div class="header">
     <h2>This is my personal site</h2>
 </div>
-<ul>
+<ul class="topNav">
     <li><a [routerLink]="'/home'">Home</a></li>
     <li><a [routerLink]="'/about'">About</a></li>
     <li><a [routerLink]="'/projects'">Projects</a></li>
@@ -23,7 +10,7 @@
     <li><a [routerLink]="'/contact'">Contact</a></li>
 </ul>
 
-<div class="mat-app-background basic-container">
+<div>
     <router-outlet></router-outlet>
 
 </div>

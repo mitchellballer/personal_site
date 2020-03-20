@@ -8,7 +8,6 @@ import { Component, OnInit, NgModule } from '@angular/core';
 
 export class ProjectsComponent implements OnInit {
 
-  landing = "Welcome to the projects page";
   constructor() { }
 
   ngOnInit(): void {

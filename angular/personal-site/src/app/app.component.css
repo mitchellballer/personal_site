@@ -4,12 +4,13 @@
     align-content: center;
 }
 
-ul {
+.topNav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: gray;
+    background-color: #96858F;
+    /*background-color: #6D7883; */
     position: sticky;
     position: -webkit-sticky; /*for safari*/
     top: 0;
@@ -33,6 +34,6 @@ li a:hover{
 }
 
 @media screen and (max-width: 600px) {
-    ul, li {float: none;}
+    .topNav, li {float: none;}
     li a {padding: 3px;}
 }
