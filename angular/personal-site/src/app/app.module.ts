@@ -18,6 +18,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
 import {MatIconModule } from '@angular/material/icon';
+import { ProjectCardComponent } from './projects/project-card/project-card.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import {MatIconModule } from '@angular/material/icon';
     ProjectsComponent,
     ResumeComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
