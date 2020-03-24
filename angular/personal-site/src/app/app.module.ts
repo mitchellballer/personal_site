@@ -19,6 +19,7 @@ import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './footer/footer.component';
 import {MatIconModule } from '@angular/material/icon';
 import { ProjectCardComponent } from './projects/project-card/project-card.component';
+import { JobComponent } from './resume/job/job.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ProjectCardComponent } from './projects/project-card/project-card.compo
     ResumeComponent,
     ContactComponent,
     FooterComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
